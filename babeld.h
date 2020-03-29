@@ -67,6 +67,7 @@ THE SOFTWARE.
 #ifndef IF_NAMESIZE
 #include <sys/socket.h>
 #include <net/if.h>
+#include <netinet/in.h>
 #endif
 
 #ifdef HAVE_VALGRIND
